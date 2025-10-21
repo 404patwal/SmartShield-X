@@ -1,13 +1,13 @@
-# SmartShield — Personal Firewall (Monitor-only)
+# SmartShield_X_AI — Personal Firewall (Monitor-only)
 
-**Project:** SmartShield — Personal Firewall using Python (Monitor-only GUI)
+**Project:** SmartShield_X_AI — Personal Firewall using Python (Monitor-only GUI)
 **Developer:** Avinash Patwal
 
 ## Overview
 SmartShield is a professional internship project that demonstrates packet-level monitoring and rule-based detection using Python and a modern dark-themed Tkinter GUI. This distribution is the **monitor-only** edition (safe) and does **not** alter system firewall rules.
 
 ## Files
-- `SmartShield_Firewall.py` — main GUI application (monitor-only)
+- `SmartShield_X_AI.py` — main GUI application (monitor-only)
 - `rules.json` — rule configuration (editable)
 - `smartshield_monitor.log` — live log (created at runtime)
 - `SmartShield_Report.md` — project report content (2 pages)
@@ -20,7 +20,7 @@ SmartShield is a professional internship project that demonstrates packet-level 
 
 > Note: On many systems sniffing requires root privileges. To run live sniffing, execute with `sudo`:
 > ```bash
-> sudo python3 SmartShield_Firewall.py
+> sudo python3 SmartShield_X_AI.py
 > ```
 > If scapy is not available or you run without root, the GUI will launch but live sniffing will be disabled.
 
@@ -29,7 +29,7 @@ SmartShield is a professional internship project that demonstrates packet-level 
 2. Edit `rules.json` to add IPs/ports/protocols to flag.
 3. Start the app:
 ```bash
-sudo python3 SmartShield_Firewall.py
+sudo python3 SmartShield_X_AI.py
 ```
 4. Click **Start Monitoring**. Live packets appear in the left panel; flagged items show in the event panel.
 
