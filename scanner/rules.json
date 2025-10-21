@@ -1,0 +1,14 @@
+{
+  "mode": "monitor",
+  "block_ips": [
+    "192.0.2.123"
+  ],
+  "block_ports": [
+    23,
+    445
+  ],
+  "block_protocols": [
+    "ICMP"
+  ],
+  "log_file": "smartshield_monitor.log"
+}
